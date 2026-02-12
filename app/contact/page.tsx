@@ -175,7 +175,8 @@ function ContactContent() {
                     </h3>
                     <a
                       href="mailto:info@alfabits.net"
-                      className="mt-1 text-sm text-muted-foreground transition-colors hover:text-primary"
+                      dir="ltr"
+                      className="mt-1 inline-block text-sm text-muted-foreground transition-colors hover:text-primary"
                     >
                       {t.contact.emailValue}
                     </a>
@@ -192,7 +193,8 @@ function ContactContent() {
                     </h3>
                     <a
                       href="tel:+12135550123"
-                      className="mt-1 text-sm text-muted-foreground transition-colors hover:text-primary"
+                      dir="ltr"
+                      className="mt-1 inline-block text-sm text-muted-foreground transition-colors hover:text-primary"
                     >
                       {t.contact.phoneValue}
                     </a>

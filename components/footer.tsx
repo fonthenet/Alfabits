@@ -151,7 +151,8 @@ export function Footer() {
               <li>
                 <a
                   href="mailto:info@alfabits.net"
-                  className="text-sm text-muted-foreground transition-colors hover:text-primary"
+                  dir="ltr"
+                  className="inline-block text-sm text-muted-foreground transition-colors hover:text-primary"
                 >
                   {t.contact.emailValue}
                 </a>
@@ -159,7 +160,8 @@ export function Footer() {
               <li>
                 <a
                   href="tel:+16612346622"
-                  className="text-sm text-muted-foreground transition-colors hover:text-primary"
+                  dir="ltr"
+                  className="inline-block text-sm text-muted-foreground transition-colors hover:text-primary"
                 >
                   {t.contact.phoneValue}
                 </a>
