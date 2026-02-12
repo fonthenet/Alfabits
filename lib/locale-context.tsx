@@ -5,6 +5,7 @@ import {
   useContext,
   useState,
   useCallback,
+  useEffect,
   type ReactNode,
 } from "react"
 import {
@@ -12,7 +13,16 @@ import {
   type TranslationKeys,
   translations,
   isRTL,
+  locales,
 } from "@/lib/i18n"
+
+const LOCALE_STORAGE_KEY = "alfabits-locale"
+
+function getStoredLocale(): Locale {
+  if (typeof window === "undefined") return "en"
+  const stored = window.localStorage.getItem(LOCALE_STORAGE_KEY)
+  return locales.includes(stored as Locale) ? (stored as Locale) : "en"
+}
 
 type LocaleContextType = {
   locale: Locale
@@ -26,8 +36,16 @@ const LocaleContext = createContext<LocaleContextType | null>(null)
 export function LocaleProvider({ children }: { children: ReactNode }) {
   const [locale, setLocaleState] = useState<Locale>("en")
 
+  useEffect(() => {
+    const stored = getStoredLocale()
+    setLocaleState(stored)
+    document.documentElement.lang = stored
+    document.documentElement.dir = isRTL(stored) ? "rtl" : "ltr"
+  }, [])
+
   const setLocale = useCallback((newLocale: Locale) => {
     setLocaleState(newLocale)
+    window.localStorage.setItem(LOCALE_STORAGE_KEY, newLocale)
     document.documentElement.lang = newLocale
     document.documentElement.dir = isRTL(newLocale) ? "rtl" : "ltr"
   }, [])

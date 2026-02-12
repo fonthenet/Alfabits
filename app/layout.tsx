@@ -2,6 +2,7 @@ import React from "react"
 import type { Metadata, Viewport } from "next"
 import { Space_Grotesk, Tajawal } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
+import { AppProviders } from "@/components/app-providers"
 import "./globals.css"
 
 const spaceGrotesk = Space_Grotesk({
@@ -58,7 +59,7 @@ export default function RootLayout({
         className={`${spaceGrotesk.variable} ${tajawal.variable} font-sans antialiased`}
       >
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
-          {children}
+          <AppProviders>{children}</AppProviders>
         </ThemeProvider>
       </body>
     </html>

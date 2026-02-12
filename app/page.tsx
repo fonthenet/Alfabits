@@ -1,6 +1,5 @@
 "use client"
 
-import { LocaleProvider } from "@/lib/locale-context"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { ChatWidget } from "@/components/chat-widget"
@@ -14,10 +13,9 @@ import { CTASection } from "@/components/sections/cta"
 
 export default function HomePage() {
   return (
-    <LocaleProvider>
-      <div className="min-h-screen bg-background">
-        <Navbar />
-        <main>
+    <div className="min-h-screen bg-background">
+      <Navbar />
+      <main>
           <HeroSection />
           <StatsSection />
           <ServicesPreview />
@@ -26,9 +24,8 @@ export default function HomePage() {
           <TestimonialsSection />
           <CTASection />
         </main>
-        <Footer />
-        <ChatWidget />
-      </div>
-    </LocaleProvider>
+      <Footer />
+      <ChatWidget />
+    </div>
   )
 }
