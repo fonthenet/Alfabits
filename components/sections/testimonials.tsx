@@ -55,7 +55,11 @@ export function TestimonialsSection() {
     item: (typeof testimonials)[0],
     field: "name" | "role" | "quote"
   ) => {
-    const key = `${field}${locale === "fr" ? "Fr" : locale === "ar" ? "Ar" : "En"}` as keyof (typeof testimonials)[0]
+    // Names and roles (company names) stay in English; only quote is translated
+    if (field === "name" || field === "role") {
+      return item[`${field}En` as keyof (typeof testimonials)[0]]
+    }
+    const key = `quote${locale === "fr" ? "Fr" : locale === "ar" ? "Ar" : "En"}` as keyof (typeof testimonials)[0]
     return item[key]
   }
 

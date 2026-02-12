@@ -24,7 +24,7 @@ export const projects: Project[] = [
     id: "alfitrade-warehouse",
     titleEn: "Alfitrade Warehouse",
     titleFr: "Alfitrade Warehouse",
-    titleAr: "\u0623\u0644\u0641\u0627\u062A\u0631\u064A\u062F \u0644\u0644\u0645\u0633\u062A\u0648\u062F\u0639\u0627\u062A",
+    titleAr: "Alfitrade Warehouse",
     descEn:
       "Web and mobile warehouse automation app for inventory, orders, and logistics.",
     descFr:
@@ -43,7 +43,7 @@ export const projects: Project[] = [
     year: "2018",
     clientEn: "Alfitrade",
     clientFr: "Alfitrade",
-    clientAr: "\u0623\u0644\u0641\u0627\u062A\u0631\u064A\u062F",
+    clientAr: "Alfitrade",
   },
   {
     id: "bluebath",
@@ -55,13 +55,13 @@ export const projects: Project[] = [
     descFr:
       "Site web corporate pour Bluebath avec design moderne et mise en page responsive.",
     descAr:
-      "\u0645\u0648\u0642\u0639 \u0634\u0631\u0643\u0629 \u0644\u0628\u0644\u0648\u0628\u0627\u062B \u0628\u062A\u0635\u0645\u064A\u0645 \u062D\u062F\u064A\u062B \u0648\u0627\u0633\u062A\u0627\u0639\u0627\u0628 \u0644\u0623\u062C\u0647\u0632\u0629 \u0627\u0644\u0639\u0631\u0636.",
+      "\u0645\u0648\u0642\u0639 \u0634\u0631\u0643\u0629 Bluebath \u0628\u062A\u0635\u0645\u064A\u0645 \u062D\u062F\u064A\u062B \u0648\u0627\u0633\u062A\u0627\u0639\u0627\u0628 \u0644\u0623\u062C\u0647\u0632\u0629 \u0627\u0644\u0639\u0631\u0636.",
     longDescEn:
       "A responsive, modern website for Bluebath built to showcase the brand and services. The site delivers a clean user experience across devices with fast loading, clear navigation, and a professional aesthetic tailored to the client's identity.",
     longDescFr:
       "Site web responsive et moderne pour Bluebath : identité de marque, présentation des services, navigation claire et expérience utilisateur optimale sur tous les appareils.",
     longDescAr:
-      "\u0645\u0648\u0642\u0639 \u0648\u064A\u0628 \u0633\u0631\u064A\u0639 \u0648\u0645\u062A\u0639\u0627\u0645\u0644 \u0644\u0628\u0644\u0648\u0628\u0627\u062B \u0644\u0639\u0631\u0636 \u0627\u0644\u0639\u0644\u0627\u0645\u0629 \u0648\u0627\u0644\u062E\u062F\u0645\u0627\u062A \u0645\u0639 \u062a\u062c\u0631\u0628\u0629 \u0645\u0628\u0633\u0637\u0629.",
+      "\u0645\u0648\u0642\u0639 \u0648\u064A\u0628 \u0633\u0631\u064A\u0639 \u0648\u0645\u062A\u0639\u0627\u0645\u0644 \u0644\u0634\u0631\u0643\u0629 Bluebath \u0644\u0639\u0631\u0636 \u0627\u0644\u0639\u0644\u0627\u0645\u0629 \u0648\u0627\u0644\u062E\u062F\u0645\u0627\u062A \u0645\u0639 \u062a\u062c\u0631\u0628\u0629 \u0645\u0628\u0633\u0637\u0629.",
     category: "web",
     color: "from-blue-500/20 to-blue-500/5",
     techStack: ["HTML/CSS", "JavaScript", "Responsive Design"],
@@ -100,7 +100,7 @@ export const projects: Project[] = [
     id: "tendi",
     titleEn: "Tendi",
     titleFr: "Tendi",
-    titleAr: "\u062A\u064A\u0646\u062F\u064A",
+    titleAr: "Tendi",
     descEn:
       "AI-powered personal financial advisor app and website. Plan, track, and achieve your money goals.",
     descFr:
@@ -112,21 +112,21 @@ export const projects: Project[] = [
     longDescFr:
       "Tendi est un conseiller financier personnel alimenté par l'IA, disponible en web et mobile. Il aide à comprendre, planifier et atteindre ses objectifs financiers, avec connexion à plus de 12 000 institutions, un Indice de Santé Financière (FHI) et des conseils personnalisés. Le modèle IA est formé à la finance personnelle au niveau Certified Financial Planner®.",
     longDescAr:
-      "\u062A\u064A\u0646\u062F\u064A \u0645\u0633\u062A\u0634\u0627\u0631 \u0645\u0627\u0644\u064A \u0634\u062E\u0645\u064A \u0628\u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064A \u0645\u062A\u0648\u0641\u0631 \u0641\u064A \u0627\u0644\u0648\u064A\u0628 \u0648\u0627\u0644\u0645\u0648\u0628\u0627\u064A\u0644. \u064a\u0633\u0627\u0639\u062f \u0641\u064a \u0641\u0647\u0645 \u0627\u0644\u0623\u0647\u062f\u0627\u0641 \u0627\u0644\u0645\u0627\u0644\u064a\u0629 \u0648\u062a\u062d\u0642\u064a\u0642\u0647\u0627 \u0645\u0639 \u0627\u062a\u0635\u0627\u0644 \u0628\u0623\u0643\u062b\u0631 \u0645\u0646 12 \u0623\u0644\u0641 \u0645\u0624\u0633\u0633\u0629 \u0645\u0627\u0644\u064a\u0629 \u0648\u0645\u0624\u0634\u0631 \u0627\u0644\u0635\u062d\u0629 \u0627\u0644\u0645\u0627\u0644\u064a\u0629.",
+      "Tendi \u0645\u0633\u062A\u0634\u0627\u0631 \u0645\u0627\u0644\u064A \u0634\u062E\u0645\u064A \u0628\u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064A \u0645\u062A\u0648\u0641\u0631 \u0641\u064A \u0627\u0644\u0648\u064A\u0628 \u0648\u0627\u0644\u0645\u0648\u0628\u0627\u064A\u0644. \u064a\u0633\u0627\u0639\u062f \u0641\u064a \u0641\u0647\u0645 \u0627\u0644\u0623\u0647\u062f\u0627\u0641 \u0627\u0644\u0645\u0627\u0644\u064a\u0629 \u0648\u062a\u062d\u0642\u064a\u0642\u0647\u0627 \u0645\u0639 \u0627\u062a\u0635\u0627\u0644 \u0628\u0623\u0643\u062b\u0631 \u0645\u0646 12 \u0623\u0644\u0641 \u0645\u0624\u0633\u0633\u0629 \u0645\u0627\u0644\u064a\u0629 \u0648\u0645\u0624\u0634\u0631 \u0627\u0644\u0635\u062d\u0629 \u0627\u0644\u0645\u0627\u0644\u064A\u0629.",
     category: "ai",
     color: "from-emerald-500/20 to-emerald-500/5",
     techStack: ["React", "Node.js", "AI/ML", "Plaid", "Cloud"],
     year: "2024",
     clientEn: "Tendi",
     clientFr: "Tendi",
-    clientAr: "\u062A\u064A\u0646\u062F\u064A",
+    clientAr: "Tendi",
     url: "https://tendi.ai/",
   },
   {
     id: "bral-associates",
     titleEn: "Bral and Associates",
     titleFr: "Bral and Associates",
-    titleAr: "\u0628\u0631\u0627\u0644 \u0648\u0627\u0644\u0634\u0631\u0643\u0627\u062A",
+    titleAr: "Bral and Associates",
     descEn:
       "Custom law firm software for case management, billing, and client intake.",
     descFr:
@@ -138,20 +138,20 @@ export const projects: Project[] = [
     longDescFr:
       "Logiciel dédié pour le cabinet Bral and Associates : gestion des dossiers et affaires, suivi du temps, facturation, prise en charge et communication clients, stockage de documents. Rationalisation des opérations au quotidien.",
     longDescAr:
-      "\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0645\u062E\u0635\u0635\u0629 \u0644\u0645\u0643\u062A\u0628 \u0628\u0631\u0627\u0644 \u0648\u0627\u0644\u0634\u0631\u0643\u0627\u062A: \u0625\u062F\u0627\u0631\u0629 \u0627\u0644\u0642\u0636\u0627\u064A\u0627 \u0648\u0627\u0644\u0623\u0648\u0631\u0627\u0642\u060C \u0627\u0644\u0628\u0644\u064A\u063A \u0648\u0627\u0644\u0641\u0648\u0627\u062A\u064A\u0631\u060C \u0627\u0644\u0639\u0645\u0644\u0627\u0621 \u0648\u0627\u0644\u0627\u062A\u0635\u0627\u0644 \u0648\u0627\u0644\u0645\u0633\u062A\u0646\u062F\u0627\u062A.",
+      "\u0628\u0631\u0645\u062C\u064A\u0627\u062A \u0645\u062E\u0635\u0635\u0629 \u0644\u0645\u0643\u062A\u0628 Bral and Associates: \u0625\u062F\u0627\u0631\u0629 \u0627\u0644\u0642\u0636\u0627\u064A\u0627 \u0648\u0627\u0644\u0623\u0648\u0631\u0627\u0642\u060C \u0627\u0644\u0628\u0644\u064A\u063A \u0648\u0627\u0644\u0641\u0648\u0627\u062A\u064A\u0631\u060C \u0627\u0644\u0639\u0645\u0644\u0627\u0621 \u0648\u0627\u0644\u0627\u062A\u0635\u0627\u0644 \u0648\u0627\u0644\u0645\u0633\u062A\u0646\u062F\u0627\u062A.",
     category: "automation",
     color: "from-rose-500/20 to-rose-500/5",
     techStack: ["React", "Node.js", "PostgreSQL", "Document Management"],
     year: "2022",
     clientEn: "Bral and Associates",
     clientFr: "Bral and Associates",
-    clientAr: "\u0628\u0631\u0627\u0644 \u0648\u0627\u0644\u0634\u0631\u0643\u0627\u062A",
+    clientAr: "Bral and Associates",
   },
   {
     id: "siha-dz",
     titleEn: "Siha DZ",
     titleFr: "Siha DZ",
-    titleAr: "\u0635\u062D\u0629 \u062F\u062C",
+    titleAr: "Siha DZ",
     descEn:
       "Web and mobile app for healthcare in Algeria. Coming soon.",
     descFr:
@@ -163,13 +163,13 @@ export const projects: Project[] = [
     longDescFr:
       "Siha DZ est une future plateforme web et mobile pour les services de santé en Algérie. Elle mettra en relation les utilisateurs avec les ressources, informations et services de santé. Lancement prévu en 2026.",
     longDescAr:
-      "\u0635\u062D\u0629 \u062F\u062C \u0645\u0646\u0635\u0629 \u0648\u064A\u0628 \u0648\u0645\u0648\u0628\u0627\u064A\u0644 \u0642\u0627\u062F\u0645\u0629 \u0644\u062E\u062F\u0645\u0627\u062A \u0627\u0644\u0635\u062D\u0629 \u0641\u064A \u0627\u0644\u062C\u0632\u0627\u0626\u0631. \u0633\u062A\u0631\u0628\u0637 \u0627\u0644\u0645\u0633\u062A\u062E\u062F\u0645\u064A\u0646 \u0628\u0627\u0644\u0645\u0648\u0627\u0631\u062F \u0648\u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062A \u0648\u0627\u0644\u062E\u062F\u0645\u0627\u062A \u0627\u0644\u0635\u062D\u064A\u0629. \u0627\u0644\u0625\u0637\u0644\u0627\u0642 \u0645\u062E\u0637\u0648\u0639 \u0644\u0639\u0627\u0645 2026.",
+      "Siha DZ \u0645\u0646\u0635\u0629 \u0648\u064A\u0628 \u0648\u0645\u0648\u0628\u0627\u064A\u0644 \u0642\u0627\u062F\u0645\u0629 \u0644\u062E\u062F\u0645\u0627\u062A \u0627\u0644\u0635\u062D\u0629 \u0641\u064A \u0627\u0644\u062C\u0632\u0627\u0626\u0631. \u0633\u062A\u0631\u0628\u0637 \u0627\u0644\u0645\u0633\u062A\u062E\u062F\u0645\u064A\u0646 \u0628\u0627\u0644\u0645\u0648\u0627\u0631\u062F \u0648\u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062A \u0648\u0627\u0644\u062E\u062F\u0645\u0627\u062A \u0627\u0644\u0635\u062D\u064A\u0629. \u0627\u0644\u0625\u0637\u0644\u0627\u0642 \u0645\u062E\u0637\u0648\u0639 \u0644\u0639\u0627\u0645 2026.",
     category: "mobile",
     color: "from-teal-500/20 to-teal-500/5",
     techStack: ["React", "React Native", "Node.js", "Healthcare APIs"],
     year: "2026",
     clientEn: "Siha DZ",
     clientFr: "Siha DZ",
-    clientAr: "\u0635\u062D\u0629 \u062F\u062C",
+    clientAr: "Siha DZ",
   },
 ]
