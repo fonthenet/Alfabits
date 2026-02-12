@@ -58,7 +58,7 @@ export default function RootLayout({
       <body
         className={`${spaceGrotesk.variable} ${tajawal.variable} font-sans antialiased`}
       >
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           <AppProviders>{children}</AppProviders>
         </ThemeProvider>
       </body>
